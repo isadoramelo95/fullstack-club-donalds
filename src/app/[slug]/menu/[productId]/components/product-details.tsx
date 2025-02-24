@@ -46,6 +46,7 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
     });
     toggleCart();
   };
+
   return (
     <>
       <div className="relative z-50 mt-[-1.5rem] flex flex-auto flex-col overflow-hidden rounded-t-3xl p-5">
